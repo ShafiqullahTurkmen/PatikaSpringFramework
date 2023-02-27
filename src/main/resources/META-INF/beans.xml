@@ -4,4 +4,9 @@
        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="annotated">
 
+    <alternatives>
+<!--        <class>com.alparslan.alternative.Patron1</class>-->
+        <class>com.alparslan.alternative.Patron2</class>
+
+    </alternatives>
 </beans>
